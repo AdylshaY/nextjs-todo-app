@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js To-Do App
+
+This is a simple to-do list web application built with Next.js. It allows users to create, manage, and organize their tasks and to-dos effectively.
+
+### Features
+
+- User-friendly task management.
+- Real-time task updates.
+- Mobile responsive design.
+- Use the filter buttons to view all tasks, active tasks, or completed tasks.
 
 ## Getting Started
 
-First, run the development server:
+These instructions will help you set up and run the project on your local machine for development and testing purposes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Node.js](https://nodejs.org/) installed on your machine.
+- [npm](https://www.npmjs.com/) (Node Package Manager) or [Yarn](https://yarnpkg.com/) for managing project dependencies.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. Clone this repository to your local machine:
 
-## Learn More
+   ```bash
+   git clone https://github.com/AdylshaY/nextjs-todo-app.git
 
-To learn more about Next.js, take a look at the following resources:
+2. Navigate to the project directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd nextjs-todo-app
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+3. Install dependencies:
 
-## Deploy on Vercel
+    ```bash
+    npm install
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+4. Add your .env file:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    ```bash
+    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+    CLERK_SECRET_KEY=
+    
+    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+    NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+    NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+    
+    DATABASE_URL=
+    BASE_URL="http://localhost:3000"
+
+5. Run the development server:
+
+    ```bash
+    npm run dev
+    ```
+    The app will be available at http://localhost:3000.
+
+### Contributing
+
+Contributions are welcome! If you'd like to improve this project, feel free to open an issue, create a pull request, or suggest new features and enhancements.

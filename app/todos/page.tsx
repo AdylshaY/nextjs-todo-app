@@ -13,7 +13,6 @@ const TodoPage = () => {
   const { data, isLoading, isError } = useGetTodosQuery({});
   const [filter, setFilter] = React.useState(null);
   const [todos, setTodos] = React.useState(data);
-  console.log(data)
 
   React.useEffect(() => {
     let filteredTodos = [];

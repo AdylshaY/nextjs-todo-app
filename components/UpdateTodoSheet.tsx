@@ -28,6 +28,7 @@ import toast from 'react-hot-toast';
 import { Loader2, PenSquare } from 'lucide-react';
 import { Todo } from '@prisma/client';
 import { useRouter } from 'next/navigation';
+import { Textarea } from './ui/textarea';
 
 const formSchema = z.object({
   title: z.string().min(3),
@@ -109,7 +110,7 @@ const UpdateTodoSheet = ({
                 <FormItem>
                   <FormLabel>Description</FormLabel>
                   <FormControl>
-                    <Input {...field} />
+                    <Textarea {...field} />
                   </FormControl>
                   <FormMessage />
                 </FormItem>

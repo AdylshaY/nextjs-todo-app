@@ -2,6 +2,15 @@
 
 This is a simple to-do list web application built with Next.js. It allows users to create, manage, and organize their tasks and to-dos effectively.
 
+### Tech Stack
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [shadcn/ui](https://ui.shadcn.com)
+- [Redux Toolkit](https://redux-toolkit.js.org)
+- [RTK Query](https://redux-toolkit.js.org/rtk-query/overview)
+- [Prisma](https://www.prisma.io)
+- [MongoDB](https://www.mongodb.com)
+
 ### Features
 
 - User-friendly task management.

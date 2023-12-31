@@ -2,6 +2,8 @@
 
 This is a simple to-do list web application built with Next.js. It allows users to create, manage, and organize their tasks and to-dos effectively.
 
+[YouTube Videos](https://www.youtube.com/playlist?list=PLy1s2Kmp0QFMXXNhABz219FS_IaAk9TYz)
+
 ### Tech Stack
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
